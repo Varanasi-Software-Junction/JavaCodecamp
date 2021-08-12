@@ -10,7 +10,7 @@ public static void main(String[] args) {
     {
         boolean condition=row >= col;
         if(condition)
-        System.out.print("0");  
+        System.out.print("*");  
         else 
             System.out.print(" ");  
     }  

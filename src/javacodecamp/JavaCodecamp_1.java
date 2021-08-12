@@ -9,7 +9,7 @@ package javacodecamp;
  *
  * @author Champak Roy
  */
-public class JavaCodecamp {
+public class JavaCodecamp_1 {
 
     /**
      * @param args the command line arguments
