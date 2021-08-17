@@ -15,7 +15,7 @@ public class A {
     
     public static void main(String[] args) {
     
-        new C();
+      C c= new C();
     }
 }
 
