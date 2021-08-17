@@ -9,7 +9,7 @@ public class IfElse {
     public static void main(String[] args) {
         
         int x, y, z;
-            Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.print("Enter the first number:");
         x = s.nextInt();
         System.out.print("Enter the second number:");
