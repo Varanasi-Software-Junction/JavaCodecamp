@@ -10,6 +10,7 @@ public class StringReadAndLineRead {
         s2=sc.next();
         s3=sc.next();
         s4=sc.next();
+        sc.close();
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(s3);
