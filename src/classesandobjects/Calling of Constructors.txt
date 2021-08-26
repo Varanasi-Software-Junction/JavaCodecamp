@@ -1,0 +1,16 @@
+1. A constructor has the same name as the name of the class and no return type.
+Constructor of class A will be 
+A()
+maybe 
+public A()
+public void/int A() is not a constructor
+2. If no class constructor is defined then Java provides a default constructor
+which does nothing and has no parameters. Automatic constructor is not provided
+if programmer makes a constructor
+3. Constructor is always called when an object is created
+4. In inheritance constructor of all the super classes is called first ending
+at the java.lang.Object class
+5. The super class must have a default constructor or the sub class must call
+the super class constructor using super
+6. Call to super must be the 1st statement of the sub class constructor
+7. Java allows multiple constructors with object blocks for common statements
