@@ -14,6 +14,7 @@ public class multi {
         Scanner s=new Scanner(System.in);
         int a =s.nextInt();
         int b=s.nextInt();
+        s.close();
         int multi=a*b;
         System.out.println(multi);
     }
