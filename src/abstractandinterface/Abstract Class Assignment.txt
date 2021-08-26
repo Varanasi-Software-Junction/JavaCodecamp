@@ -1,0 +1,2 @@
+1. Make a class Product. This class is abstract with methods description, price and tax. All abstract. Choose fields as required.
+2. Make 2 sub classes Simple Product and Taxed product. Price of taxed products will include 5 rupee tax added to the price.

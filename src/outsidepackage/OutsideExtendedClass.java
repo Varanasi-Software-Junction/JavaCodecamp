@@ -8,7 +8,7 @@ public class OutsideExtendingClass extends A{
       System.out.println(packagevar);
       System.out.println(publicevar);
       System.out.println(privatevar);
-      System.out.println(protectedvar);
+      System.out.println(protectedvars);
   }
     
 }
