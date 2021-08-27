@@ -1,7 +1,8 @@
 
 package abstractandinterface;
 
-public class Rectangle extends Figure{
+public class Rectangle extends Figure implements ISides,IAngle
+{
     private int length,breadth;
 
     public Rectangle(int length, int breadth) {
@@ -28,4 +29,16 @@ public class Rectangle extends Figure{
     {
         return Math.sqrt(length*length + breadth*breadth);
     }
+
+    @Override
+    public int sides() {
+        return 4;
+    }
+
+    @Override
+    public int angles() {
+     return 360;
+    }
+
+   
 }
