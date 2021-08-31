@@ -5,19 +5,25 @@ package quizproject;
 
 public class Question {
     private int questionno,correctanswer;
-    private String question,optiona,optionb,option,optiond,explanation;
+    private String question,optiona,optionb,optionc,optiond,explanation;
 
-    public Question(int questionno, int correctanswer, String question, String optiona, String optionb, String option, String optiond, String explanation) {
+    public Question(int questionno, int correctanswer, String question, String optiona, String optionb, String optionc, String optiond, String explanation) {
         this.questionno = questionno;
         this.correctanswer = correctanswer;
         this.question = question;
         this.optiona = optiona;
         this.optionb = optionb;
-        this.option = option;
+        this.optionc = optionc;
         this.optiond = optiond;
         this.explanation = explanation;
     }
-
+public void display()
+{
+    System.out.println("Question No: " + questionno);
+    System.out.println("Question : " + question);
+    System.out.println("Opt A: " + optiona + "\tOpt B: " + optionb);
+    System.out.println("Opt C: " + optionc + "\tOpt D: " + optiond);
+}
     public int getQuestionno() {
         return questionno;
     }
