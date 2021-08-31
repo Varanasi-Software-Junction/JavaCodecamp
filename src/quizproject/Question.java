@@ -44,8 +44,8 @@ public void display()
         return optionb;
     }
 
-    public String getOption() {
-        return option;
+    public String getOptionc() {
+        return optionc;
     }
 
     public String getOptiond() {
@@ -58,7 +58,7 @@ public void display()
 
     @Override
     public String toString() {
-        return "Question{" + "questionno=" + questionno + ", question=" + question + ", optiona=" + optiona + ", optionb=" + optionb + ", option=" + option + ", optiond=" + optiond + '}';
+        return "Question{" + "questionno=" + questionno + ", question=" + question + ", optiona=" + optiona + ", optionb=" + optionb + ", optionc=" + optionc + ", optiond=" + optiond + '}';
     }
     
     

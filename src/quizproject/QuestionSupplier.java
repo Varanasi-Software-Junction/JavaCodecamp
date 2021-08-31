@@ -4,6 +4,14 @@ public class QuestionSupplier {
 private Question[]  questions;
 private int totalquestions,currentquestionno;
 
+    public int getTotalQuestions() {
+        return totalquestions;
+    }
+
+    public int getCurrentQuestionNo() {
+        return currentquestionno;
+    }
+
     public QuestionSupplier(Question[] questions) {
         this.questions = questions;
         this.totalquestions = questions.length;
@@ -26,7 +34,7 @@ private int totalquestions,currentquestionno;
     }
      public Question next()throws NoMoreQuestionsException
     {
-        if(currentquestionno>=totalquestions)
+        if(currentquestionno>=totalquestions-1)
              throw new NoMoreQuestionsException("No question at position " + currentquestionno);
             currentquestionno++;
             return questions[currentquestionno];
