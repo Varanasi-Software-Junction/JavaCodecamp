@@ -1,8 +1,17 @@
-
 package backtracking;
 
 import java.util.Arrays;
+/*
+The 8 Queens problem is a famous cominatorial problem that involves placing 8 queens 
+on a 8X8 Chess Board such that no queens attack each other.
 
+How do we solve it?
+The technique used in solving this problem is called back tracking where we try
+and advance the solution, but on reaching the dead end we go back and change a
+previous configuration and then try a new combination
+
+
+*/
 public class Queens {
     static class XY
     {
