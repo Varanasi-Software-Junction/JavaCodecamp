@@ -1,4 +1,4 @@
-package classandobjects;
+// package stack;
 
 import java.util.Scanner;
 

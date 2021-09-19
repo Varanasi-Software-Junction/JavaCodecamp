@@ -6,6 +6,7 @@ public class radixsort {
         int a[]={123,321,98,345,341};
         System.out.println(Arrays.toString(a));
        int digit=getMaxSize(a);
+       System.out.println(digit+"*");
        for(int i=1;i<=digit;i++)
        {
           

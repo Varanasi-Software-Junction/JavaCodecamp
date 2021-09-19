@@ -1,7 +1,11 @@
 {
     "java.project.sourcePaths": [
         "src/string",
+        "src/stack",
+        "src/sorting",
         "src/shivank",
-        "src/access"
+        "src/quiz",
+        "src/access",
+        "src/classandobjects"
     ]
 }

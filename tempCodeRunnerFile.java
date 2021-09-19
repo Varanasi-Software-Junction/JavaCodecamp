@@ -1,19 +1,20 @@
-package classandobjects;
-class Over{
-
-    int add(int a,int b,int c)
+package shivank;
+public class Bishop
+{
+    public staic void main(String args[])
     {
-        return a+b+c;
+        int r=2,c=6;
         
+        while(c<=8 && r<=8)
+        {
+            Sytem.out.println(r++,c++);
+        }
+        while(c>=1 && r>=1)
+        {
+            Sytem.out.println(r--,c--);
+        }
+
 
     }
-    int add(int a,int b)
-    {
-        return a+b;
-    }
-    public static void main(String args[])
-    {
-        System.out.println(add(2,4));
-    }
 
-}
+} 

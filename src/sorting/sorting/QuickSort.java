@@ -16,10 +16,11 @@ public class QuickSort {
             a[i]=a[fp];
             a[fp]=t;
         }
-        //System.out.println(Arrays.toString(a));
+        System.out.println(Arrays.toString(a));
         t=a[fp];
         a[fp]=a[left];
         a[left]=t;
+        System.out.println(Arrays.toString(a)+"*");
         qSort(a, left, fp-1);
         qSort(a,  fp+1,right);
     }

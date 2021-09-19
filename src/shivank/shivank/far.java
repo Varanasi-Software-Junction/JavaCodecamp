@@ -7,6 +7,7 @@ class far extends specifiers
     {
          far obj=new far();
          obj.f2();
+         
 
 
 
