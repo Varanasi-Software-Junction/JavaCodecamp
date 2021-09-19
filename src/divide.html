@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script>
+            function f()
+            {
+                var a=document.getElementById("n1").value;
+                var b=document.getElementById("n2").value;
+                console.log("Hello");
+                document.getElementById("result").value=a/b;
+            }
+            
+        </script>
+        <title>Divide</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <input type="number" id="n1"/>
+        <br>
+         <input type="number" id="n2"/>
+        <br>
+        <input type="text" id="result"/>
+        <br>
+        <input type="button" value="Divide" onclick="f()">
+        
+        
+    </body>
+</html>
