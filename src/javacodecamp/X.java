@@ -10,7 +10,7 @@ public class X {
                  {
          boolean condition= row ==  col || row + col== n+1 ;
            if(condition)      
-         System.out.print("0");
+         System.out.print("*");
            else
           System.out.print(" ");
             }      

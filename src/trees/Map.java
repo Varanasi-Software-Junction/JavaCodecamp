@@ -1,0 +1,30 @@
+package trees;
+import java.util.*;
+public class Map {
+
+    
+    public static void main(String[] args) {
+    int a[]={5,8,9,6,3,6,5,4,9,4,-4};
+    java.util.Map<Integer,Integer> map=new java.util.TreeMap<Integer,Integer>();
+   
+    for(int i=0;i<a.length;i++)
+    {
+    
+     map.put(i,a[i] );
+     
+    }
+
+     System.out.println(map.keySet());
+     System.out.println(map.values());
+     System.out.println(map.get(5));
+     // map.put(key, value);
+
+
+
+    }
+
+    
+}
+
+    
+
