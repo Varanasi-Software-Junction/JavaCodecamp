@@ -17,6 +17,7 @@ public class divion {
         Scanner s=new Scanner(System.in);
         int a=s.nextInt();
         int b=s.nextInt();
+        s.close();
         int divi=a%b;
         System.out.println(divi);
         

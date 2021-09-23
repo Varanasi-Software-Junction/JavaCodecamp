@@ -16,6 +16,7 @@ public class AddDouble {
         Scanner sc=new  Scanner(System.in);
         double d1=sc.nextDouble();
         System.out.println(d1);
+        sc.close();
     }
     
 }

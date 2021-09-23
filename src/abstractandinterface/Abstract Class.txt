@@ -1,0 +1,8 @@
+1. Abstract methods are methods without bodies
+2. Any class having any abstract will become abstract
+3. We cannot make objects of abstract classes.
+4. Abstract classes can have none abstract methods
+5. classes can be marked as abstract without having abstract methods
+6. Constructor cannot be abstract
+7.Classes extending the abstract class must define all abstract methods or become abstract.
+8. Objects of extending classes are allowed.

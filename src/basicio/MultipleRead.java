@@ -15,6 +15,7 @@ public class MultipleRead {
     public static void main(String[] args) {
         Scanner sc=new  Scanner(System.in);
         int sum=0;
+        sc.close();
         while (sc.hasNextInt()) {
             sum = sum + sc.nextInt();
             System.out.println(sum);
