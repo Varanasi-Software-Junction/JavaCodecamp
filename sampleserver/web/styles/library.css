@@ -1,0 +1,43 @@
+
+.my{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+.forlabels
+{
+    
+    margin-left: 140px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.setting
+{
+    margin-left: 145px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.shado{
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 5px;
+    background-color: rgb(177, 231, 50);
+    box-shadow: 10px 5px 1000px rgb(79, 186, 212);
+    height: 305px;
+    width: 400px;
+}
+.align{
+text-align: center;
+border-color: rgb(69, 216, 216);
+
+margin-top:5px ;
+}
+.sub{
+   margin-left: 165px;
+   border-radius: 5px; 
+}
+

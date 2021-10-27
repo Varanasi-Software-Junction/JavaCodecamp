@@ -12,7 +12,7 @@ public class Banking{
     public static void main(String[] args) throws Exception {
         Scanner sc=new Scanner(System.in);
         
-        Connection connection=DatabaseUtilities.getConnection();
+        Connection connection=Database.getConnection();
         while(true)
         {
         System.out.println();
@@ -44,7 +44,7 @@ public class Banking{
                     statement.setString(1, g);
                     statement.setString(2, "" + c);
                     int n = statement.executeUpdate();
-                    int accNo=DatabaseUtilities.getAccountno();
+                    int accNo=Database.getAccountno();
                     System.out.println("Thank YOu!!!....Account Opened "+accNo+" is your account number");
                     
                     System.out.println(n+" record inserted");

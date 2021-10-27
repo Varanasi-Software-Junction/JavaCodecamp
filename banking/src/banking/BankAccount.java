@@ -11,7 +11,7 @@ public class BankAccount {
     public BankAccount(int accountno)throws Exception
     {
         
-       Connection connection=DatabaseUtilities.getConnection();
+       Connection connection=Database.getConnection();
         PreparedStatement ps= connection.prepareStatement("select * from bank where bankaccountno=?");
        ps.setString(1, "" + accountno);
         ResultSet rs=ps.executeQuery();
