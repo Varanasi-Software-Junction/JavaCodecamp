@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class HeapSort {
     static int[] makeHeap(int[] a)
     {
-         int[] heap=new int[a.length + 1];
+        int[] heap=new int[a.length + 1];
         for(int i=0;i<=a.length-1;i++)
         {
             int value=a[i];
@@ -31,13 +31,14 @@ public class HeapSort {
        // System.out.println(Arrays.toString(heap));
         for(int i=1;i<=heap.length-1;i++)
         {
-            System.out.println(Arrays.toString(heap));
+            //System.out.println(Arrays.toString(heap));
             int value=heap[1];
+            //System.out.println(value);
             a[a.length-i] =value;
             int pos=1;
             heap[1]=heap[heap.length-i];
-             value=heap[1];
-            //System.out.println(Arrays.toString(heap));
+            value=heap[1];
+            System.out.println(Arrays.toString(heap));
             int heapsize=heap.length-i-1;
             while(true)
             {

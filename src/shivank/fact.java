@@ -1,4 +1,4 @@
-package ternary;
+package shivank;
 public class fact
 {
     public static int func(int num)
@@ -14,7 +14,7 @@ public class fact
         int n=5,s=0;
         while(n>=0)
         {
-            s+=fun(n);
+            s+=func(n);
             n--;
 
         }

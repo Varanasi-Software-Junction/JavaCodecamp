@@ -1,4 +1,4 @@
-package shivank;
+//package shivank;
 
 import java.util.Arrays;
 
@@ -35,7 +35,7 @@ permute(index+1, maxindex, a);
     
     public static void main(String args[])
     {
-        int n=3;
+        int n=4;
         int[] a =new int[n+1];
  permute(0,n,a);       
 

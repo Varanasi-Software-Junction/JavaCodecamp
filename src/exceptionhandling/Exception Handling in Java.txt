@@ -1,0 +1,16 @@
+Exception in Java is a runtime situation from which the program cannot continue
+Keywords in Exception Handling
+1. try
+2. catch
+3. throw
+4. throws
+5. finally
+
+Make a class date and throw YearException if year is wrong
+MonthException if month is wrong
+and DateException if date is wrong
+1-2--9000 Year wrong
+1-22-2020 Month problem
+32-10-2020 Date problem
+1-2-2020 No problem
+
