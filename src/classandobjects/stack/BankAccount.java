@@ -1,5 +1,8 @@
 // package stack;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.Scanner;
 
 
@@ -64,11 +67,12 @@ public class BankAccount{
         case 1:
         {
             //
-            //String g=sc.next();
-            //System.out.println("Initial deposit amount: ");
-            //int c=sc.nextInt();
-            data[AC]=new BankAccount();
-            //data[AC]=new BankAccount(g,c);
+            System.out.println("Enter Name ");
+            String g=sc.next();
+            System.out.println("Initial deposit amount: ");
+            int c=sc.nextInt();
+            //data[AC]=new BankAccount();
+            data[AC]=new BankAccount(g,c);
             
             System.out.println(data[AC]);
             AC++;
@@ -168,6 +172,21 @@ public class BankAccount{
         System.out.println(toString());
     }
     
-    
+ public static Connection connect()
+ {
+    try {
+        DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+        String url="jdbc:oracle:thin:@localhost:1521:xe";
+        String username="System";
+        String password="wrong";
+        Connection connection=DriverManager.getConnection(url,username,password);
+        return connection;
+        }
+    catch(SQLException e){
+        System.out.println(e);
+
+    }
+
+ }   
 
 }
