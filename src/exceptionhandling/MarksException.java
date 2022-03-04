@@ -1,12 +1,7 @@
-
 package exceptionhandling;
-
-public class MarksException extends Exception// To create our own exception
-{
-
+public class MarksException extends Exception{
     @Override
     public String toString() {
         return "MarksException{" + '}';
     }
-    
 }

@@ -1,7 +1,7 @@
 package sorting;
 import java.util.Arrays;
 import java.util.Scanner;
-public class frequency {
+public class frequency {// counting sort
     public static void main(String[] args) {
     int a[]={6,5,4,3,2,1,0};
     int[] frequencies=new int[10];
