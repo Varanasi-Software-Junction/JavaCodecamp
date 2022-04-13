@@ -12,12 +12,18 @@ public class SetDemo {
         cricket.add("C");
         football.add("B");
         football.add("C");
-        System.out.println(cricket);
-        System.out.println(football);
-        cricket.removeAll(cricket);
-        System.out.println(cricket);
-        cricket.addAll(football);
-        System.out.println(cricket);
+        System.out.println("Cricket " + cricket);
+        System.out.println("Football " + football);
+        Set<String> union=new TreeSet<>();
+        union.addAll(cricket);
+        union.addAll(football);
+        System.out.println("Union " + union);
+        Set<String> intersection=new TreeSet<>(cricket);
+        intersection.retainAll(football);
+        System.out.println("Intersection " + intersection);
+        Set<String> difference=new TreeSet<>(cricket);
+        difference.removeAll(football);
+        System.out.println("Difference " + difference);
         
         
     }
