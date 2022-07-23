@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 
-public class StackProcessing {
+public class SetProcessing {
     public static void main(String[] args) {
         Set<String> cricket=new TreeSet<>();
         Set<String> football=new TreeSet<>();

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package collectionspacage;
+package collectionspackage;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
