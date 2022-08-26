@@ -1,6 +1,6 @@
 package shivank;
 import java.util.*;
-public class aug2
+public class tempCodeRunnerFile
 {
     public static void main(String args[])
     {

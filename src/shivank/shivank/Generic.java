@@ -1,4 +1,4 @@
-package shivank;
+package shivank.shivank;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -17,7 +17,7 @@ this.k=k;
         {
             for(int j=0;j<k.length-1-i;j++)
             {
-            if (compare((int)k[j],(int) k[j+1])>0)
+           // if (compare((int)k[j],(int) k[j+1])>0)
                 {
                     shiv comp=k[j];
                     k[j]=k[j+1];
@@ -34,8 +34,8 @@ this.k=k;
     
     public static void main(String[] args) {
         int h[]={9,8,7,6};
-        Generic<Integer> obj=new Generic<>(h);
-        obj.display();
+      //  Generic<Integer> obj=new Generic<>(h);
+      //  obj.display();
 
     }
     

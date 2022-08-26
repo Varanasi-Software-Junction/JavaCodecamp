@@ -15,10 +15,10 @@ public class OutsideClass {
     void print()
   {
       A a=new A();
-      System.out.println(a.packagevar);
+   //   System.out.println(a.packagevar);
       System.out.println(a.publicevar);
-      System.out.println(privatevar);
-      System.out.println(a.protectedvar);
+     // System.out.println(privatevar);
+     // System.out.println(a.protectedvar);
   }
     
 }

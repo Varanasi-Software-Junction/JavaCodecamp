@@ -1,7 +1,7 @@
 package shivank.shivank;
 
 import java.util.*;
-public class Q1-factorial {
+public class Q1factorial {
     public int fact(int num)
     {
         if(num==1)
@@ -12,8 +12,8 @@ public class Q1-factorial {
       Scanner sc=new Scanner(System.in);
       System.out.println("Enter a nummber ot get its factorial:");
       int num=sc.nextInt();
-      int ans=fact(num);
-      System.out.println(ans); 
+      //int ans=fact(num);
+    //  System.out.println(ans); 
     
     }
     

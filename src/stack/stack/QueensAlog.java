@@ -1,4 +1,4 @@
-package stack;
+package stack.stack;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -78,7 +78,7 @@ int x=1,y=y1;
         {
             for(int i=0;i<100;i++)
             {
-                if(a1[i].x==x1 && a1[i].y==x1)
+                //if(a1[i].x==x1 && a1[i].y==x1)
                 continue;
             }
                 a1[z++]=new pair(x,y);

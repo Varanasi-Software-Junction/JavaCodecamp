@@ -1,7 +1,7 @@
-package stack;
+package stack.stack;
 import java.util.*;
 
-import javax.lang.model.util.ElementScanner14;
+//import javax.lang.model.util.ElementScanner14;
 public class SeptLong3 {
     public static void main(String[] args) {
         int t;

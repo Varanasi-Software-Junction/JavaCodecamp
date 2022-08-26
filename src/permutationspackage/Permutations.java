@@ -5,7 +5,7 @@ public class Permutations {
            
     {
         for(int i=0 ;i<n ;i++)
-            
+            ;
     
     
             }

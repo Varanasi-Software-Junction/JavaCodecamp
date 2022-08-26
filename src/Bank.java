@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.*;
 public class Bank {
     static int accNo=0;
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         Scanner sc=new Scanner(System.in);
         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
         String url="jdbc:oracle:thin:@localhost:1521:xe";
@@ -40,9 +40,9 @@ public class Bank {
                     System.out.println("Thank YOu!!!....Account Opened "+accNo+" is your account number");
                     PreparedStatement statement = connection.prepareStatement("insert into Bank values(?,?,?)");
 
-                    statement.setString(1, accNo);
+                    statement.setString(1,"" + accNo);
                     statement.setString(2, g);
-                    statement.setString(3, c);
+                    statement.setString(3,"" + c);
 
                     
                     int n = statement.executeUpdate();

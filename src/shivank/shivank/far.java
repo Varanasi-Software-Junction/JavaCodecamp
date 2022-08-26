@@ -14,8 +14,8 @@ class far extends specifiers
     }
     void f2()
     { 
-     System.out.println(a);//private not visible
+    // System.out.println(a);//private not visible
      System.out.println(b+"*");//public visible
      System.out.println(c+"*");//protected visible outside package when super class extended
-     System.out.println(d+"*");// package not visible too when oustide package 
+   //  System.out.println(d+"*");// package not visible too when oustide package 
 }}

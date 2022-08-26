@@ -1,4 +1,4 @@
-package shivank;
+package shivank.shivank;
 public class fact
 {
     public static int func(int num)

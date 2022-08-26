@@ -1,6 +1,6 @@
 package shivank;
 import java.util.*;
-public class aug2
+public class Aug4
 {
     public static void main(String args[])
     {

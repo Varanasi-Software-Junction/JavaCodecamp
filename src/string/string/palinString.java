@@ -1,4 +1,4 @@
-package string;
+package string.string;
 
 public class palinString {
     public static void main(String args[])

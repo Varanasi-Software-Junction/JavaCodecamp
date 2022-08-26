@@ -91,8 +91,8 @@ public class sudokubasic {
         {
             for(int j=0;j<9;j+=3)
             {
-                boolean c=isBoxValid(i, j);
-                if(!c)
+               // boolean c=isBoxValid(i, j);
+               // if(!c)
                 return false;
             }
         }

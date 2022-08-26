@@ -1,4 +1,4 @@
-package string;
+package string.string;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -35,7 +35,7 @@ class sorti implements Comparator<SortingbyComparator>
 
     @Override
     public int compare(SortingbyComparator o1, SortingbyComparator o2) {
-       return 
+       return 0;
     }
     
 }

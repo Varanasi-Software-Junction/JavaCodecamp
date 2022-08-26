@@ -1,4 +1,4 @@
-package shivank;
+package shivank.shivank;
 
 import java.util.Comparator;
 
@@ -28,7 +28,7 @@ public String toString()
         System.out.println(obj);}
         for(int i=0;i<a.length-1;i++)
         {
-            if(compare(a[i],a[i+1]))
+           // if(compare(a[i],a[i+1]))
         }
     }
 }
