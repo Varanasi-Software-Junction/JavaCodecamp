@@ -27,8 +27,8 @@ public class ParenthesisChecker {
                 }
                 if (ch == ')' && outchar != '(') {
                     return false;
-                   
-                } 
+
+                }
                 continue;
             }
             return false;
