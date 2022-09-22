@@ -19,10 +19,12 @@ public class MergeSort {
     {
         if(left>=right)
             return;
+        //***************Less than equal to 1 elements
         int mid=(left + right)/2;
         System.out.println(left + "," + mid + "," + right);
         mergeSort(a, left, mid);
         mergeSort(a, mid+1, right);
+        //Do recursive till 1 or zero partitions
         int i=left,j=mid + 1,k=0;
         int[] c=new int[right-left + 1];
         //*******Both arrays there***************************
