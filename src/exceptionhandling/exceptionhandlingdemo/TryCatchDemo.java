@@ -8,7 +8,7 @@ public class TryCatchDemo {
 
     public static void main(String[] args) {
         try {
-            int[] a = null;// {9, 3, 4, 5};
+            int[] a = {9, 3, 4, 5};
             a[0] = 9;
             a[27] = 0;
             int n = 0;
