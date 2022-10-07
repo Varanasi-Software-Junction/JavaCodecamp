@@ -3,9 +3,12 @@
 
 package threadspackage;
 
+import java.util.ArrayList;
+
 
 public class CallCenter extends Thread{
 Telephone caller,receiver;
+public static ArrayList<Telephone> busyphones=new ArrayList<>();
 
     public CallCenter(Telephone caller, Telephone receiver) {
         this.caller = caller;
@@ -23,8 +26,9 @@ Telephone caller,receiver;
         Telephone t4=new  Telephone("4");
         CallCenter c1=new CallCenter(t1, t2);
         CallCenter c2=new CallCenter(t1, t3);
-       // CallCenter c3=new CallCenter(t3, t4);
+        CallCenter c3=new CallCenter(t3, t4);
         c1.start();
         c2.start();
+        c3.start();
     }
 }
