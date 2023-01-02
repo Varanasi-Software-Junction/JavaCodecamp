@@ -1,6 +1,8 @@
 package oopsday;
 
-public class Person {//Class declration
+import java.io.Serializable;
+
+public class Person implements Serializable{//Class declration
 
     String name, address;//class member variables
     int age;
