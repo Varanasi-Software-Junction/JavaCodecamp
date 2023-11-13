@@ -11,6 +11,7 @@ public class Person implements Serializable {
 
     String name, address;
     int age;
+    FileOutputStream fileOutputStream;
 
     public Person(String name, String address, int age) {
         this.name = name;
