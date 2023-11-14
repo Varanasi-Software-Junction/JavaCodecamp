@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.Socket;
 
-public class Cilent {
+public class Client {
 
     public static void main(String[] args) throws Exception {
         Socket s = new Socket("localhost", 999);
