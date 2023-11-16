@@ -1,6 +1,5 @@
 package streamsreaderswriters;
 
-import java.io.ObjectInputStream;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;

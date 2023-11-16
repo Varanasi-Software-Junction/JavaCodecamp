@@ -10,7 +10,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 
-public class HalfDuplexsever {
+public class HalfDuplexServer {
     public static void main(String[] args) throws IOException {
         ServerSocket ss=new ServerSocket(999);
                     System.out.println("waiting for connection");
