@@ -8,6 +8,31 @@ import java.util.Scanner;
 
 public class TwoWayChatServer {
 
+    static class ChatThread implements Runnable {
+
+        private PrintWriter writer;
+        private Scanner reader;
+
+        public ChatThread(PrintWriter writer, Scanner reader) {
+            this.writer = writer;
+            this.reader = reader;
+        }
+
+        @Override
+        public void run() {
+
+            while (true) {
+                //System.out.println("Waiting for one");
+                String line = reader.nextLine();
+                System.out.println(line);
+                writer.println(line);
+                writer.flush();
+
+            }
+        }
+
+    }
+
     public static void main(String[] args) throws IOException {
         ServerSocket ss = new ServerSocket(999);
 
@@ -21,16 +46,10 @@ public class TwoWayChatServer {
         Scanner scanner2 = new Scanner(socket2.getInputStream());
         PrintWriter pw1 = new PrintWriter(socket1.getOutputStream());
         PrintWriter pw2 = new PrintWriter(socket2.getOutputStream());
-        while (true) {
-            System.out.println("Waiting for one");
-            String line = scanner1.nextLine();
-            pw2.println(line);
-            pw2.flush();
-            System.out.println("Waiting for two");
-            line = scanner2.nextLine();
-            pw1.println(line);
-            pw1.flush();
-        }
+        Thread thread1 = new Thread(new ChatThread(pw2, scanner1));
+        Thread thread2 = new Thread(new ChatThread(pw1, scanner2));
+        thread1.start();
+        thread2.start();
     }
 
 }
