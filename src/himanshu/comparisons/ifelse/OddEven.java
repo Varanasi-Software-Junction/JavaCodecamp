@@ -1,4 +1,4 @@
-package himanshu.comparisons;
+package himanshu.comparisons.ifelse;
 
 import java.util.Scanner;
 
