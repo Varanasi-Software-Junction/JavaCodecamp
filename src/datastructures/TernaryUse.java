@@ -8,11 +8,12 @@ public class TernaryUse {
 
     public static void main(String[] args) {
         int a = 31, b = 4, c = 7;
-//    int max;
-//    if(a>=b)
-//        max=a;
-//    else 
-//        max=b;
+        /*    int max;
+    if(a>=b)
+        max=a;
+    else 
+        max=b;
+         */
         int max = (a >= b) ? a : b;
         System.out.println(max);
 
