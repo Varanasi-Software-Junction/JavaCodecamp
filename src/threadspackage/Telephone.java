@@ -1,6 +1,6 @@
 package threadspackage;
 
-import static jdk.nashorn.internal.objects.NativeFunction.call;
+ 
 
 public class Telephone {
 
